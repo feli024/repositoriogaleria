@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff
+	line-height: 30px;
+	text-align: center;
+	background: url(../img/musica.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Raleway';
+}
+
+strong  {
+    font-weight: 500;
+}
+
+h1  {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+a  {
+  color: #fff;
+}
+
+.my-container{
+    padding: 100px 0 0.8px 0;  
+    color: #fff; 
+}
+
+.my-container .mydescripcion{
+    margin: 20px 0 10px 0;
+   
+}
+
+.my-container .mydescripcion{
+    opacity: 0.8;
+}
+
+.contenedor-form {
+    background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+
+}
+
+.contenedor-form .custom-file{
+   background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+
+}
+
+.contenedor-form .custom-select{
+   background: rgba(0,0,0,.7);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+
+}
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.myform-top-right {
+  
+    padding-top: 25px;
+    font-size: 66px; 
+    opacity: 0.3;
+}
+
+.contenedor-form input[type="text"]{
+	outline: none;
+	width: 100%;
+	padding: 10px 15px;
+	margin: 0 0 20px 0;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	border-bottom: 4px solid #ff851b;
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight:normal;
+	transition: all .5s ease;
+
+}
+
+.formulario .form-group{
+    width: 300px;
+}
+
+.contenedor-form .custom-file{
+    width: 450px;
+    
+}
+.contenedor-form input[type="text"]:focus{
+  border-bottom: 4px solid #0075d9;
+
+}
+
+.contenedor-form input[type="submit"]{
+	 background: #FF851B;
+	 color: #FFF;
+	 width: 100%;
+	 border: none;
+	 padding: 10px 0;
+	 font-size: 16px;
+	 font-weight: normal;
+	 font-family: Roboto;
+	 letter-spacing: 1px;
+	 cursor: pointer;
+	 transition: all .5s ease;
+
+}
+
+.contenedor-form input[type="submit"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
+
+.contenedor-form .reset-pagina {
+    background: rgba(0, 117, 217, .7);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+/*LOGIN REDES SOCIALES*/
+
+.mysocial-login {
+    margin-top: 35px;
+}
+.mysocial-login-buttons {
+    margin-top: 25px;
+}
+.mybtn-social {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 15px 20px 0 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
+}
+.mybtn-social:hover, .mybtn-social:focus, .mybtn-social:active:focus { 
+    outline: 0;
+    opacity: 0.6; 
+    background: rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+}
